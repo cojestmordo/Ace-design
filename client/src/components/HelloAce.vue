@@ -5,7 +5,7 @@
     @mouseover="hover = true"
     @mouseleave="hover = false"
     :class="{ active: hover }">
-    <div class="hello">Hello</div>
+    <a href="#/frontpage" class="hello">Hello</a>
   </div>
   </div>
 </template>
