@@ -1,2 +1,2 @@
 # Ace-design
-my desgn portfolio - work in progress
+my desgn portfolio made with nodejs and vue - work in progress
