@@ -39,6 +39,11 @@ export default {
   background-color:black;
   border-radius:100%;
   color:white;
+  text-decoration:none;
+}
+a:link,a:visited, a:active {
+color:white;
+text-decoration:none
 }
 .hello{
   margin:auto;
@@ -51,5 +56,14 @@ export default {
   background-color:white;
 }
 .activebox{
-  background-color:black;}
+  color:white;
+  background-color:black;
+}
+.active a:link, a:hover , a:active{
+color:black;
+}
+.active > a:visited{
+color:black;
+text-decoration:none;
+}
 </style>

@@ -2,11 +2,9 @@
     <component :is="currentView" />
 </template>
 
-
 <script>
 import HelloAce from './components/HelloAce.vue'
 import FrontPage from './components/FrontPage.vue'
-
 
 export default {
   data() {
@@ -30,9 +28,6 @@ const routes = {
   '/': HelloAce,
   '/frontpage': FrontPage
 }
-
-
-
 </script>
 
 <style>

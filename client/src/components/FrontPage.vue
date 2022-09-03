@@ -1,17 +1,17 @@
 <template>
   <div class='grid-container' :class='{ active: hover }' >
-     <div class='foto item' @mouseover='hover = true' @mouseleave='hover = false'>
+    <a href='#/foto' class='foto item' @mouseover='hover = true' @mouseleave='hover = false'>
       <p>foto</p>
-    </div>
-     <div class='design item' @mouseover='hover = true' @mouseleave='hover = false'>
+    </a>
+     <a href='#/design' class='design item' @mouseover='hover = true' @mouseleave='hover = false'>
       <p>design</p>
-    </div>
-     <div class='poster item' @mouseover='hover = true' @mouseleave='hover = false'>
+    </a>
+     <a href='#/poster' class='poster item' @mouseover='hover = true' @mouseleave='hover = false'>
       <p>poster</p>
-    </div>
-     <div class='info item' @mouseover='hover = true' @mouseleave='hover = false'>
+    </a>
+     <a href='#/info' class='info item' @mouseover='hover = true' @mouseleave='hover = false'>
       <p>info</p>
-    </div>
+    </a>
   </div>
 </template>
 
