@@ -1,18 +1,10 @@
 <template>
-  <div></div>
+  <div>Design</div>
 </template>
 
 <script>
 export default {
-  name: 'HelloAce',
-  props: {
-    msg: String
-  },
-  data(){
-    return{
-      hover: false,
-    }
-  }
+  name: 'DesignPage'
 }
 </script>
 <style scoped>

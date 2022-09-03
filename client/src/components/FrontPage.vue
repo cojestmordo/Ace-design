@@ -6,8 +6,8 @@
      <a href='#/design' class='design item' @mouseover='hover = true' @mouseleave='hover = false'>
       <p>design</p>
     </a>
-     <a href='#/poster' class='poster item' @mouseover='hover = true' @mouseleave='hover = false'>
-      <p>poster</p>
+     <a href='#/logo' class='poster item' @mouseover='hover = true' @mouseleave='hover = false'>
+      <p>logo</p>
     </a>
      <a href='#/info' class='info item' @mouseover='hover = true' @mouseleave='hover = false'>
       <p>info</p>
@@ -81,6 +81,9 @@ color:black
 }
 .active{
 background-color:black;
+}
+a:visited, a:link{
+text-decoration: none;
 }
 
 </style>

@@ -1,18 +1,10 @@
 <template>
-  <div></div>
+  <div>Info</div>
 </template>
 
 <script>
 export default {
-  name: 'HelloAce',
-  props: {
-    msg: String
-  },
-  data(){
-    return{
-      hover: false,
-    }
-  }
+  name: 'InfoPage'
 }
 </script>
 <style scoped>

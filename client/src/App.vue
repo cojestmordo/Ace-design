@@ -5,6 +5,10 @@
 <script>
 import HelloAce from './components/HelloAce.vue'
 import FrontPage from './components/FrontPage.vue'
+import FotoPage from './components/Foto.vue'
+import DesignPage from './components/Design.vue'
+import LogoPage from './components/Logo.vue'
+import InfoPage from './components/Info.vue'
 
 export default {
   data() {
@@ -26,7 +30,11 @@ export default {
 
 const routes = {
   '/': HelloAce,
-  '/frontpage': FrontPage
+  '/frontpage': FrontPage,
+  '/foto': FotoPage,
+  '/design': DesignPage,
+  '/logo': LogoPage,
+  '/info': InfoPage
 }
 </script>
 

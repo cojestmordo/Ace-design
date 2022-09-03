@@ -1,19 +1,13 @@
 <template>
-  <div></div>
+  <div>Foto</div>
+  <img src='../assets/biuro.png'>
 </template>
 
 <script>
 export default {
-  name: 'HelloAce',
-  props: {
-    msg: String
-  },
-  data(){
-    return{
-      hover: false,
-    }
-  }
+  name: 'FotoPage'
 }
+
 </script>
 <style scoped>
 </style>
