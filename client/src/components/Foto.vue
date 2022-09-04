@@ -1,16 +1,16 @@
 <template>
   <div class='gridbox'>
     <div class='box biuro'>
-      <img src='../assets/biuro.png'>
+      <img src='../assets/foto/biuro.png'>
     </div>
     <div class='box img1'>
-      <img src='../assets/img1.png'>
+      <img src='../assets/foto/img1.png'>
     </div>
     <div class='box jzk'>
-      <img src='../assets/jzk.png'>
+      <img src='../assets/foto/jzk.png'>
     </div>
      <div class='box void'>
-      <img src='../assets/void.png'>
+      <img src='../assets/foto/void.png'>
     </div>
   </div>
 </template>
@@ -19,10 +19,9 @@
 export default {
   name: 'FotoPage'
 }
-
 </script>
-<style scoped>
 
+<style scoped>
 .gridbox{
   width:100vw;
   height:100vh;
@@ -47,7 +46,7 @@ grid-column:1/2;
   grid-column:2/3
 }
 .jzk{
-grid-column:1/2;
+  grid-column:1/2;
 }
 .void{
   grid-column:2/3
