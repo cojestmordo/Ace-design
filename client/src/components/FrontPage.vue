@@ -51,24 +51,12 @@
   justify-content: space-evenly;
   justify-items:center;
 }
+.item:hover{
+  background-color:white;
+  color:black
+}
 .foto{
   grid-column: 1/2;
-}
-.foto:hover{
-background-color:white;
-color:black
-}
-.design:hover{
-background-color:white;
-color:black
-}
-.poster:hover{
-background-color:white;
-color:black
-}
-.info:hover{
-background-color:white;
-color:black
 }
 .design{
   grid-column: 2/3;
@@ -80,10 +68,10 @@ color:black
   grid-column: 2/3;
 }
 .active{
-background-color:black;
+  background-color:black;
 }
 a:visited, a:link{
-text-decoration: none;
+  text-decoration: none;
 }
 
 </style>
