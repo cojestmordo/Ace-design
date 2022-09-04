@@ -1,6 +1,8 @@
 <template>
-  <div>
-    Siemano :D !
+  <div class='main'>
+    <section class='description'>
+      Hello, on this site you can find some projects I’ve done. Despite photos and logos I can do lots of design related things !
+    </section>
   </div>
 </template>
 
@@ -11,37 +13,18 @@ export default {
 </script>
 
 <style scoped>
-.gridbox{
+.main{
   width:100vw;
   height:100vh;
-  gap:2%;
-  display:grid;
-  align-content: space-evenly;
-  align-items: center;
-  justify-content: space-evenly;
-  justify-items:center;
+  background-color:black;
+  display:flex;
+  align-items:center;
+  justify-content:center;
 }
-.box{
-  width:30%;
-}
-.box img{
-  width:100%;
-  height:auto;
-}
-.biuro{
-grid-column:1/2;
-}
-.img1{
-  grid-column:2/3
-}
-.jzk{
-  grid-column:1/2;
-}
-.void{
-  grid-column:2/3
-}
-.box:hover{
-transform: scale(2);
+.description{
+  position:relative;
+  font-size:5vw;
+  color:white;
 }
 </style>
 
