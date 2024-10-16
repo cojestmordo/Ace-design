@@ -39,16 +39,19 @@ const routes = {
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-}
+
+@import url('https://fonts.googleapis.com/css2?family=Micro+5&display=swap');
+
 html, body {
 margin: 0px;
 padding: 0px;
 }
 
+#app {
+  font-family: 'Micro 5', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+}
 </style>
